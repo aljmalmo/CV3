@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional CV/Resume Template - Bilingual Arabic/English">
+    <meta name="keywords" content="CV, Resume, Template, Arabic, English, Bilingual, Professional">
+    <meta name="author" content="Bilingual CV Template">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Professional CV Template">
+    <meta property="og:description" content="Modern bilingual CV/Resume template with Arabic and English support">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+    
+    <title>Professional CV Template</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body class="light-theme" data-lang="en">
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Header Controls -->
+    <header class="header-controls no-print">
+        <div class="container">
+            <div class="controls-wrapper">
+                <!-- Language Toggle -->
+                <div class="language-toggle">
+                    <button id="lang-toggle" class="btn-control" title="Switch Language">
+                        <i class="fas fa-language"></i>
+                        <span class="lang-text" data-en="عربي" data-ar="English">عربي</span>
+                    </button>
+                </div>
+
+                <!-- Theme Controls -->
+                <div class="theme-controls">
+                    <button id="theme-toggle" class="btn-control" title="Toggle Dark Mode">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="color-themes">
+                        <button class="theme-color" data-theme="blue" style="background: #2563eb"></button>
+                        <button class="theme-color" data-theme="green" style="background: #059669"></button>
+                        <button class="theme-color" data-theme="purple" style="background: #7c3aed"></button>
+                        <button class="theme-color" data-theme="red" style="background: #dc2626"></button>
+                    </div>
+                </div>
+
+                <!-- Export Controls -->
+                <div class="export-controls">
+                    <button id="export-pdf" class="btn-control btn-primary" title="Export as PDF">
+                        <i class="fas fa-file-pdf"></i>
+                        <span data-en="PDF" data-ar="PDF">PDF</span>
+                    </button>
+                    <button id="export-png" class="btn-control" title="Export as PNG">
+                        <i class="fas fa-image"></i>
+                        <span data-en="PNG" data-ar="PNG">PNG</span>
+                    </button>
+                    <button id="print-cv" class="btn-control" title="Print CV">
+                        <i class="fas fa-print"></i>
+                        <span data-en="Print" data-ar="طباعة">Print</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main CV Container -->
+    <main class="cv-container" id="cv-content">
+        <div class="cv-wrapper">
+            <!-- Left Sidebar -->
+            <aside class="cv-sidebar">
+                <!-- Profile Section -->
+                <section class="profile-section">
+                    <div class="profile-image" id="profile-image-container">
+                        <img id="profile-image" src="assets/images/profile-placeholder.jpg" alt="Profile Picture">
+                    </div>
+                    <div class="profile-info">
+                        <h1 class="profile-name" id="profile-name">Ahmed Mohamed</h1>
+                        <p class="profile-title" id="profile-title">Full Stack Developer</p>
+                    </div>
+                </section>
+
+                <!-- Contact Information -->
+                <section class="contact-section">
+                    <h2 class="section-title">
+                        <i class="fas fa-address-card"></i>
+                        <span data-en="Contact" data-ar="معلومات التواصل">Contact</span>
+                    </h2>
+                    <div class="contact-list" id="contact-list">
+                        <!-- Contact items will be populated by JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Skills Section -->
+                <section class="skills-section">
+                    <h2 class="section-title">
+                        <i class="fas fa-cogs"></i>
+                        <span data-en="Skills" data-ar="المهارات">Skills</span>
+                    </h2>
+                    <div class="skills-container">
+                        <div class="skill-category">
+                            <h3 class="skill-category-title" data-en="Technical Skills" data-ar="المهارات التقنية">Technical Skills</h3>
+                            <div class="skills-list" id="technical-skills">
+                                <!-- Technical skills will be populated by JavaScript -->
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h3 class="skill-category-title" data-en="Soft Skills" data-ar="المهارات الشخصية">Soft Skills</h3>
+                            <div class="skills-list" id="soft-skills">
+                                <!-- Soft skills will be populated by JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Languages Section -->
+                <section class="languages-section">
+                    <h2 class="section-title">
+                        <i class="fas fa-globe"></i>
+                        <span data-en="Languages" data-ar="اللغات">Languages</span>
+                    </h2>
+                    <div class="languages-list" id="languages-list">
+                        <!-- Languages will be populated by JavaScript -->
+                    </div>
+                </section>
+
+                <!-- QR Code Section -->
+                <section class="qr-section" id="qr-section">
+                    <h2 class="section-title">
+                        <i class="fas fa-qrcode"></i>
+                        <span data-en="Scan for Online Profile" data-ar="امسح للملف الشخصي">Scan for Online Profile</span>
+                    </h2>
+                    <div class="qr-code" id="qr-code">
+                        <!-- QR Code will be generated by JavaScript -->
+                    </div>
+                </section>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="cv-main">
+                <!-- Summary Section -->
+                <section class="summary-section">
+                    <h2 class="section-title">
+                        <i class="fas fa-user"></i>
+                        <span data-en="Professional Summary" data-ar="الملخص المهني">Professional Summary</span>
+                    </h2>
+                    <p class="summary-text" id="summary-text">
+                        <!-- Summary will be populated by JavaScript -->
+                    </p>
+                </section>
+
+                <!-- Experience Section -->
+                <section class="experience-section">
+                    <h2 class="section-title">
+                        <i class="fas fa-briefcase"></i>
+                        <span data-en="Work Experience" data-ar="الخبرة العملية">Work Experience</span>
+                    </h2>
+                    <div class="experience-list" id="experience-list">
+                        <!-- Experience items will be populated by JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Education Section -->
+                <section class="education-section">
+                    <h2 class="section-title">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span data-en="Education" data-ar="التعليم">Education</span>
+                    </h2>
+                    <div class="education-list" id="education-list">
+                        <!-- Education items will be populated by JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Projects Section -->
+                <section class="projects-section">
+                    <h2 class="section-title">
+                        <i class="fas fa-project-diagram"></i>
+                        <span data-en="Projects" data-ar="المشاريع">Projects</span>
+                    </h2>
+                    <div class="projects-list" id="projects-list">
+                        <!-- Projects will be populated by JavaScript -->
+                    </div>
+                </section>
+
+                <!-- Interests Section -->
+                <section class="interests-section">
+                    <h2 class="section-title">
+                        <i class="fas fa-heart"></i>
+                        <span data-en="Interests" data-ar="الاهتمامات">Interests</span>
+                    </h2>
+                    <div class="interests-list" id="interests-list">
+                        <!-- Interests will be populated by JavaScript -->
+                    </div>
+                </section>
+            </main>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="cv-footer no-print">
+        <div class="container">
+            <p class="footer-text">
+                <span data-en="Built with" data-ar="تم البناء باستخدام">Built with</span>
+                <i class="fas fa-heart text-red"></i>
+                <span data-en="using HTML5, CSS3 & JavaScript" data-ar="باستخدام HTML5, CSS3 و JavaScript">using HTML5, CSS3 & JavaScript</span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode/1.5.3/qrcode.min.js"></script>
+    <script src="js/data-loader.js"></script>
+    <script src="js/language-handler.js"></script>
+    <script src="js/theme-handler.js"></script>
+    <script src="js/export-handler.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

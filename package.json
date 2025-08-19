@@ -1,0 +1,71 @@
+{
+  "name": "bilingual-cv-template",
+  "version": "1.0.0",
+  "description": "A professional, modern, and fully customizable CV/Resume template with complete Arabic and English bilingual support",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . --listen 3000",
+    "build": "echo 'No build process required - this is a static HTML template'",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'No linting configured'",
+    "format": "echo 'No formatting configured'",
+    "deploy": "echo 'Deploy to your preferred hosting service'"
+  },
+  "keywords": [
+    "cv",
+    "resume",
+    "template",
+    "bilingual",
+    "arabic",
+    "english",
+    "rtl",
+    "ltr",
+    "responsive",
+    "modern",
+    "professional",
+    "html5",
+    "css3",
+    "javascript",
+    "pdf-export",
+    "dark-mode",
+    "themes",
+    "open-source"
+  ],
+  "author": {
+    "name": "Manus AI",
+    "email": "contact@manus.ai",
+    "url": "https://github.com/manus-ai"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/bilingual-cv-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/bilingual-cv-template/issues"
+  },
+  "homepage": "https://github.com/yourusername/bilingual-cv-template#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {
+    "serve": "^14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie <= 11"
+  ],
+  "files": [
+    "index.html",
+    "css/",
+    "js/",
+    "data/",
+    "assets/",
+    "README.md",
+    "LICENSE"
+  ]
+}
+
