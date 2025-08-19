@@ -1,0 +1,233 @@
+{
+  "personalInfo": {
+    "en": {
+      "name": "Ahmed Mohamed",
+      "title": "Full Stack Developer",
+      "email": "ahmed.mohamed@email.com",
+      "phone": "+20 123 456 7890",
+      "location": "Cairo, Egypt",
+      "website": "https://ahmed-mohamed.dev",
+      "linkedin": "https://linkedin.com/in/ahmed-mohamed",
+      "github": "https://github.com/ahmed-mohamed",
+      "summary": "Passionate Full Stack Developer with 5+ years of experience in building scalable web applications using modern technologies. Specialized in React, Node.js, and cloud technologies."
+    },
+    "ar": {
+      "name": "أحمد محمد",
+      "title": "مطور ويب متكامل",
+      "email": "ahmed.mohamed@email.com",
+      "phone": "+20 123 456 7890",
+      "location": "القاهرة، مصر",
+      "website": "https://ahmed-mohamed.dev",
+      "linkedin": "https://linkedin.com/in/ahmed-mohamed",
+      "github": "https://github.com/ahmed-mohamed",
+      "summary": "مطور ويب متكامل شغوف بخبرة تزيد عن 5 سنوات في بناء تطبيقات الويب القابلة للتوسع باستخدام التقنيات الحديثة. متخصص في React و Node.js وتقنيات الحوسبة السحابية."
+    }
+  },
+  "experience": {
+    "en": [
+      {
+        "title": "Senior Full Stack Developer",
+        "company": "Tech Solutions Inc.",
+        "location": "Cairo, Egypt",
+        "duration": "2022 - Present",
+        "description": [
+          "Led development of 3 major web applications serving 10K+ users",
+          "Implemented microservices architecture reducing system downtime by 40%",
+          "Mentored junior developers and conducted code reviews"
+        ]
+      },
+      {
+        "title": "Frontend Developer",
+        "company": "Digital Agency",
+        "location": "Cairo, Egypt",
+        "duration": "2020 - 2022",
+        "description": [
+          "Developed responsive web applications using React and TypeScript",
+          "Collaborated with UX/UI designers to implement pixel-perfect designs",
+          "Optimized application performance improving load times by 60%"
+        ]
+      }
+    ],
+    "ar": [
+      {
+        "title": "مطور ويب متكامل أول",
+        "company": "شركة الحلول التقنية",
+        "location": "القاهرة، مصر",
+        "duration": "2022 - حتى الآن",
+        "description": [
+          "قاد تطوير 3 تطبيقات ويب رئيسية تخدم أكثر من 10 آلاف مستخدم",
+          "نفذ هندسة الخدمات المصغرة مما قلل من توقف النظام بنسبة 40%",
+          "أرشد المطورين المبتدئين وأجرى مراجعات للكود"
+        ]
+      },
+      {
+        "title": "مطور واجهات أمامية",
+        "company": "وكالة رقمية",
+        "location": "القاهرة، مصر",
+        "duration": "2020 - 2022",
+        "description": [
+          "طور تطبيقات ويب متجاوبة باستخدام React و TypeScript",
+          "تعاون مع مصممي UX/UI لتنفيذ تصاميم دقيقة",
+          "حسن أداء التطبيقات مما حسن أوقات التحميل بنسبة 60%"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "en": [
+      {
+        "degree": "Bachelor of Computer Science",
+        "institution": "Cairo University",
+        "location": "Cairo, Egypt",
+        "duration": "2016 - 2020",
+        "gpa": "3.8/4.0",
+        "description": "Graduated with honors. Specialized in Software Engineering and Web Development."
+      }
+    ],
+    "ar": [
+      {
+        "degree": "بكالوريوس علوم الحاسوب",
+        "institution": "جامعة القاهرة",
+        "location": "القاهرة، مصر",
+        "duration": "2016 - 2020",
+        "gpa": "3.8/4.0",
+        "description": "تخرج بمرتبة الشرف. تخصص في هندسة البرمجيات وتطوير الويب."
+      }
+    ]
+  },
+  "skills": {
+    "en": {
+      "technical": [
+        "JavaScript/TypeScript",
+        "React.js/Next.js",
+        "Node.js/Express",
+        "Python/Django",
+        "MongoDB/PostgreSQL",
+        "AWS/Docker",
+        "Git/GitHub"
+      ],
+      "soft": [
+        "Team Leadership",
+        "Problem Solving",
+        "Communication",
+        "Project Management",
+        "Agile/Scrum"
+      ]
+    },
+    "ar": {
+      "technical": [
+        "JavaScript/TypeScript",
+        "React.js/Next.js",
+        "Node.js/Express",
+        "Python/Django",
+        "MongoDB/PostgreSQL",
+        "AWS/Docker",
+        "Git/GitHub"
+      ],
+      "soft": [
+        "قيادة الفريق",
+        "حل المشكلات",
+        "التواصل",
+        "إدارة المشاريع",
+        "Agile/Scrum"
+      ]
+    }
+  },
+  "projects": {
+    "en": [
+      {
+        "name": "E-Commerce Platform",
+        "description": "Full-stack e-commerce solution with payment integration",
+        "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
+        "link": "https://github.com/ahmed-mohamed/ecommerce-platform"
+      },
+      {
+        "name": "Task Management App",
+        "description": "Collaborative task management application with real-time updates",
+        "technologies": ["Next.js", "Socket.io", "PostgreSQL"],
+        "link": "https://github.com/ahmed-mohamed/task-manager"
+      }
+    ],
+    "ar": [
+      {
+        "name": "منصة التجارة الإلكترونية",
+        "description": "حل متكامل للتجارة الإلكترونية مع تكامل المدفوعات",
+        "technologies": ["React", "Node.js", "MongoDB", "Stripe"],
+        "link": "https://github.com/ahmed-mohamed/ecommerce-platform"
+      },
+      {
+        "name": "تطبيق إدارة المهام",
+        "description": "تطبيق تعاوني لإدارة المهام مع التحديثات الفورية",
+        "technologies": ["Next.js", "Socket.io", "PostgreSQL"],
+        "link": "https://github.com/ahmed-mohamed/task-manager"
+      }
+    ]
+  },
+  "languages": {
+    "en": [
+      {
+        "language": "Arabic",
+        "level": "Native"
+      },
+      {
+        "language": "English",
+        "level": "Fluent"
+      },
+      {
+        "language": "French",
+        "level": "Intermediate"
+      }
+    ],
+    "ar": [
+      {
+        "language": "العربية",
+        "level": "اللغة الأم"
+      },
+      {
+        "language": "الإنجليزية",
+        "level": "طلاقة"
+      },
+      {
+        "language": "الفرنسية",
+        "level": "متوسط"
+      }
+    ]
+  },
+  "interests": {
+    "en": [
+      "Open Source Contribution",
+      "Machine Learning",
+      "Photography",
+      "Travel",
+      "Reading Tech Blogs"
+    ],
+    "ar": [
+      "المساهمة في المصادر المفتوحة",
+      "التعلم الآلي",
+      "التصوير الفوتوغرافي",
+      "السفر",
+      "قراءة المدونات التقنية"
+    ]
+  },
+  "settings": {
+    "profileImage": {
+      "enabled": true,
+      "url": "assets/images/profile.jpg"
+    },
+    "qrCode": {
+      "enabled": true,
+      "url": "https://ahmed-mohamed.dev"
+    },
+    "theme": {
+      "default": "light",
+      "colors": {
+        "primary": "#2563eb",
+        "secondary": "#64748b",
+        "accent": "#0ea5e9",
+        "background": "#ffffff",
+        "text": "#1e293b"
+      }
+    }
+  }
+}
+
