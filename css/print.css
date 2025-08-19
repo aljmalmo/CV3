@@ -1,0 +1,379 @@
+/* ===== Print Styles ===== */
+@media print {
+  /* Reset for print */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Page setup */
+  @page {
+    size: A4;
+    margin: 0.5in;
+  }
+
+  /* Hide non-printable elements */
+  .no-print,
+  .header-controls,
+  .cv-footer,
+  .loading-screen {
+    display: none !important;
+  }
+
+  /* Body adjustments */
+  body {
+    font-size: 12pt;
+    line-height: 1.4;
+    color: #000 !important;
+    background: white !important;
+  }
+
+  /* Container adjustments */
+  .cv-container {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .cv-wrapper {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 20pt;
+    background: white !important;
+    border-radius: 0;
+    box-shadow: none;
+    min-height: auto;
+    page-break-inside: avoid;
+  }
+
+  /* Sidebar adjustments */
+  .cv-sidebar {
+    background: #f8f9fa !important;
+    padding: 15pt;
+    border-right: 1px solid #dee2e6 !important;
+    border-radius: 0;
+  }
+
+  [dir="rtl"] .cv-sidebar {
+    border-right: none !important;
+    border-left: 1px solid #dee2e6 !important;
+  }
+
+  /* Main content adjustments */
+  .cv-main {
+    padding: 15pt;
+  }
+
+  /* Typography adjustments */
+  .profile-name {
+    font-size: 18pt;
+    font-weight: bold;
+    color: #000 !important;
+    margin-bottom: 4pt;
+  }
+
+  .profile-title {
+    font-size: 14pt;
+    color: #333 !important;
+    font-weight: 500;
+  }
+
+  .section-title {
+    font-size: 14pt;
+    font-weight: bold;
+    color: #000 !important;
+    margin-bottom: 8pt;
+    padding-bottom: 2pt;
+    border-bottom: 1pt solid #333 !important;
+    page-break-after: avoid;
+  }
+
+  .section-title i {
+    color: #333 !important;
+  }
+
+  /* Profile image adjustments */
+  .profile-image {
+    width: 80pt;
+    height: 80pt;
+    margin: 0 auto 10pt;
+    border: 2pt solid #333 !important;
+    box-shadow: none;
+  }
+
+  /* Contact section */
+  .contact-item {
+    font-size: 10pt;
+    margin-bottom: 6pt;
+    color: #333 !important;
+  }
+
+  .contact-item i {
+    color: #333 !important;
+  }
+
+  .contact-item a {
+    color: #333 !important;
+    text-decoration: none;
+  }
+
+  /* Skills section */
+  .skill-category-title {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #000 !important;
+    margin-bottom: 6pt;
+  }
+
+  .skill-item {
+    background: white !important;
+    border: 1pt solid #dee2e6 !important;
+    padding: 3pt 6pt;
+    margin-bottom: 3pt;
+    font-size: 9pt;
+    color: #333 !important;
+    border-radius: 2pt;
+  }
+
+  /* Languages section */
+  .language-item {
+    font-size: 10pt;
+    margin-bottom: 6pt;
+  }
+
+  .language-name {
+    color: #000 !important;
+    font-weight: 500;
+  }
+
+  .language-level {
+    background: white !important;
+    border: 1pt solid #dee2e6 !important;
+    color: #333 !important;
+    padding: 2pt 4pt;
+    font-size: 8pt;
+  }
+
+  /* QR Code section */
+  .qr-section {
+    page-break-inside: avoid;
+  }
+
+  .qr-code {
+    background: white !important;
+    border: 1pt solid #dee2e6 !important;
+    padding: 8pt;
+  }
+
+  /* Summary section */
+  .summary-text {
+    font-size: 11pt;
+    line-height: 1.5;
+    color: #333 !important;
+    margin-bottom: 12pt;
+  }
+
+  /* Experience section */
+  .experience-item {
+    margin-bottom: 12pt;
+    padding-bottom: 8pt;
+    border-bottom: 1pt solid #dee2e6 !important;
+    page-break-inside: avoid;
+  }
+
+  .experience-title {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #000 !important;
+    margin-bottom: 2pt;
+  }
+
+  .experience-company {
+    font-size: 11pt;
+    color: #333 !important;
+    font-weight: 500;
+    margin-bottom: 2pt;
+  }
+
+  .experience-meta {
+    font-size: 9pt;
+    color: #666 !important;
+    margin-bottom: 6pt;
+  }
+
+  .experience-description li {
+    font-size: 10pt;
+    color: #333 !important;
+    margin-bottom: 3pt;
+    line-height: 1.4;
+  }
+
+  .experience-description li::before {
+    color: #333 !important;
+  }
+
+  /* Education section */
+  .education-item {
+    background: #f8f9fa !important;
+    border: 1pt solid #dee2e6 !important;
+    padding: 8pt;
+    margin-bottom: 8pt;
+    page-break-inside: avoid;
+  }
+
+  .education-degree {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #000 !important;
+    margin-bottom: 2pt;
+  }
+
+  .education-institution {
+    font-size: 11pt;
+    color: #333 !important;
+    font-weight: 500;
+    margin-bottom: 2pt;
+  }
+
+  .education-meta {
+    font-size: 9pt;
+    color: #666 !important;
+    margin-bottom: 6pt;
+  }
+
+  .education-description {
+    font-size: 10pt;
+    color: #333 !important;
+    line-height: 1.4;
+  }
+
+  /* Projects section */
+  .project-item {
+    background: #f8f9fa !important;
+    border: 1pt solid #dee2e6 !important;
+    padding: 8pt;
+    margin-bottom: 8pt;
+    page-break-inside: avoid;
+  }
+
+  .project-name {
+    font-size: 12pt;
+    font-weight: bold;
+    color: #000 !important;
+    margin-bottom: 4pt;
+  }
+
+  .project-description {
+    font-size: 10pt;
+    color: #333 !important;
+    margin-bottom: 6pt;
+    line-height: 1.4;
+  }
+
+  .project-technologies {
+    margin-bottom: 6pt;
+  }
+
+  .tech-tag {
+    background: #333 !important;
+    color: white !important;
+    padding: 2pt 4pt;
+    font-size: 8pt;
+    font-weight: 500;
+    border-radius: 2pt;
+    margin-right: 3pt;
+    margin-bottom: 2pt;
+    display: inline-block;
+  }
+
+  [dir="rtl"] .tech-tag {
+    margin-right: 0;
+    margin-left: 3pt;
+  }
+
+  .project-link {
+    font-size: 9pt;
+    color: #333 !important;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  /* Interests section */
+  .interest-item {
+    background: #f8f9fa !important;
+    border: 1pt solid #dee2e6 !important;
+    color: #333 !important;
+    padding: 3pt 6pt;
+    font-size: 9pt;
+    margin-right: 4pt;
+    margin-bottom: 3pt;
+    display: inline-block;
+  }
+
+  [dir="rtl"] .interest-item {
+    margin-right: 0;
+    margin-left: 4pt;
+  }
+
+  /* Page breaks */
+  .cv-sidebar {
+    page-break-inside: avoid;
+  }
+
+  .section-title {
+    page-break-after: avoid;
+  }
+
+  .experience-item,
+  .education-item,
+  .project-item {
+    page-break-inside: avoid;
+  }
+
+  /* Ensure proper spacing */
+  .experience-section,
+  .education-section,
+  .projects-section,
+  .interests-section {
+    margin-bottom: 15pt;
+  }
+
+  /* Remove hover effects */
+  .skill-item:hover,
+  .interest-item:hover,
+  .project-item:hover {
+    transform: none !important;
+    background: inherit !important;
+    color: inherit !important;
+  }
+
+  /* Links styling for print */
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 8pt;
+    color: #666 !important;
+  }
+
+  /* Don't show URLs for internal links */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  /* Responsive adjustments for smaller print areas */
+  @page :first {
+    margin-top: 0.3in;
+  }
+
+  /* Ensure Arabic text prints correctly */
+  [dir="rtl"] {
+    text-align: right !important;
+  }
+
+  [dir="ltr"] {
+    text-align: left !important;
+  }
+}
+
