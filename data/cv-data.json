@@ -212,7 +212,7 @@
   "settings": {
     "profileImage": {
       "enabled": true,
-      "url": "assets/images/profile.jpg"
+      "url": "assets/me.jpg"
     },
     "qrCode": {
       "enabled": true,
